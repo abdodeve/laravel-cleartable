@@ -1,0 +1,10 @@
+{
+    "name": "abdodev/clear-table",
+    "authors": [
+        {
+            "name": "Abdelhadi Habchi",
+            "email": "abhabchi@sqli.com"
+        }
+    ],
+    "require": {}
+}
