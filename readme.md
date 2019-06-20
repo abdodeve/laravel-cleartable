@@ -1,4 +1,4 @@
-# Log activity inside your Laravel app
+# Clear tables with simple command 
 
 Clean any table by deleting all rows with a simple artisan commande
 
