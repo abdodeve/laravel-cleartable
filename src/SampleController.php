@@ -1,6 +1,6 @@
 <?php
 
-namespace Abdodev\ClearTable;
+namespace Abdodeve\ClearTable;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;

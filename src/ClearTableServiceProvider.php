@@ -1,15 +1,15 @@
 <?php
 
-namespace Abdodev\ClearTable;
+namespace Abdodeve\ClearTable;
 
 use Illuminate\Support\ServiceProvider;
-use \Abdodev\ClearTable\Console\Commands\clearTable ;
+use \Abdodeve\ClearTable\Console\Commands\clearTable ;
 
 class ClearTableServiceProvider extends ServiceProvider
 { 
     
     protected $commands = [
-        'Abdodev\ClearTable\Console\Commands\clearTable'
+        'Abdodeve\ClearTable\Console\Commands\clearTable'
     ];
 
     /**
@@ -38,7 +38,7 @@ class ClearTableServiceProvider extends ServiceProvider
     public function register()
     {
         // register our controller
-        $this->app->make('Abdodev\ClearTable\SampleController');
+        $this->app->make('Abdodeve\ClearTable\SampleController');
 
         // register the Command
         $this->app->bind('command.abc:delete', clearTable::class);

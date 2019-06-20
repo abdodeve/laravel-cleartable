@@ -1,6 +1,6 @@
 <?php
 
-namespace Abdodev\ClearTable\Console\Commands;
+namespace Abdodeve\ClearTable\Console\Commands;
 
 use Illuminate\Console\Command;
 use DB;

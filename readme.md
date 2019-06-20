@@ -1,8 +1,34 @@
-## Laravel Clear Table
+# Log activity inside your Laravel app
 
-### For Laravel 4.x
+Clean any table by deleting all rows with a simple artisan commande
 
-Require this package in your composer.json and update composer.
+Here's a demo of how you can use it:
 
-Example (table: plans):
-    php artisan table:delete plans
+``` bash
+php artisan table:delete table_name
+```
+
+table_name: is the table name in the database can be whatever
+
+## Installation
+
+You can install the package via composer:
+
+``` bash
+composer require abdodeve/laravel-cleartable
+```
+
+The package will automatically register itself.
+
+You can publish the migration with:
+```bash
+php artisan vendor:publish --provider="Abdodeve\ClearTable\ClearTableServiceProvider"
+```
+
+## Contributing
+
+Please see feel free to any contribution .
+
+## License
+
+The MIT License (MIT).
