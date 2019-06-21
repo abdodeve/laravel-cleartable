@@ -20,11 +20,6 @@ composer require abdodeve/laravel-cleartable
 
 The package will automatically register itself.
 
-You can publish the migration with:
-```bash
-php artisan vendor:publish --provider="Abdodeve\ClearTable\ClearTableServiceProvider"
-```
-
 ## Contributing
 
 Please see feel free to any contribution .
